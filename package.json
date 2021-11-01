@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node"
+    "start": "ts-node",
+    "start-server": "node express-server/server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "rxjs": "~6.6.7",
-    "chalk": "latest"
+    "chalk": "latest",
+    "zone.js": "latest"
   },
   "devDependencies": {
     "@types/node": "^16.10.9",

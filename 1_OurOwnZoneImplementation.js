@@ -50,11 +50,11 @@ context.message = "Context message here";
 context.fork({}).run(function () {
   setTimeout(() => {
     console.log(
-         `%Message inside the context: «${this.message}; level: ${this.level};»`);
+         `Message inside the context: «${this.message}; level: ${this.level};»`);
   }, 0);
 });
 console.log(
-     `%cMessage outside of context: «${this.message}»`);
+     `Message outside of context: «${this.message}»`);
 
 
 console.log(chalk.redBright("END"));
